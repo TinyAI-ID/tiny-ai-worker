@@ -1,0 +1,17 @@
+{
+  "name": "tiny-ai-worker",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230404.0",
+    "wrangler": "^2.15.1"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "@cloudflare/ai": "^1.0.14",
+    "@cloudflare/itty-router-openapi": "^0.1.2"
+  }
+}
