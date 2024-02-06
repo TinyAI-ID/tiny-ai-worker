@@ -7,6 +7,15 @@
 
 This is an example of a Cloudflare Worker that uses Cloudflare Workers KV to store a simple todo list. It is a part of the Tiny AI platform.
 
+# Try before you deploy
+
+Visit tiny.technology and attach as Worker to your chat.
+
+URL: https://tiny-ai-worker-todo-example.cagatay.workers.dev/openapi.json
+
+Result should be similar:
+![Tiny AI Worker Todo Example](./assets/tiny-ai-worker-todo-example.png)
+
 # Prerequisites
 
 - Node.js
@@ -46,22 +55,5 @@ wrangler publish
 wrangler dev
 ```
 
-# Tiny AI
-
-Tiny AI is a platform for creating AI-powered chats.
-This repository contains [tiny.technology](https://tiny.technology) ChatGPT plugin
-
-## [worker.tinyai.id](https://worker.tinyai.id)
-
-![ChatGPT Output](./assets/chatgpt-tiny-ai.png)
-![Cloudflare AI Worker API](./assets/tiny-worker.png)
-
-## Hack this template
-
-1. You can configure the `.well-known/ai-plugin.json` route in `index.ts`.
-2. Update the OpenAPI schema in `openapi.ts`.
-3. You can set up any new routes and the associated OpenAPI schema by defining new routes. See `search.ts` for an example.
-
-## Deploying to OpenAI's API
-
-Follow the instructions [in the ChatGPT documentation](https://platform.openai.com/docs/plugins/introduction/plugin-flow) to deploy your plugin and begin using it in ChatGPT.
+# License
+MIT-0
