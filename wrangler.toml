@@ -1,6 +1,7 @@
-name = "tiny-ai-worker"
+name = "tiny-ai-worker-todo-example"
 main = "src/index.ts"
 compatibility_date = "2023-04-07"
 
-[ai]
-binding = "AI" # i.e. available in your Worker on env.AI
+kv_namespaces = [
+  { binding = "MY_TODOS", id = "c3c80be52de349b69f8efa9f3df00329" }
+]
