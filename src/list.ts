@@ -34,10 +34,9 @@ export class ListTodos extends OpenAPIRoute {
     _ctx: any,
     data: Record<string, any>
   ) {
-    // NAMESPACE.list({prefix?: string, limit?: number, cursor?: string})
     const {cursor, limit, prefix} = data;
-    // Limit default is 1000
     const value = await env.MY_TODOS.list({cursor: cursor, limit: limit, prefix: prefix});
+  
     return new Response(JSON.stringify(value));
   }
 }

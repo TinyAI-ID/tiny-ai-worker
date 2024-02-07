@@ -16,6 +16,7 @@ URL: https://tiny-ai-worker-todo-example.cagatay.workers.dev/openapi.json
 Result should be similar:
 ![Tiny AI Worker Todo Example](./assets/tiny-ai-worker-todo-example.png)
 
+
 # Prerequisites
 
 - Node.js
