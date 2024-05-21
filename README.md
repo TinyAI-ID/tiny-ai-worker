@@ -40,7 +40,7 @@ kv_namespaces = [
 
 ```bash
 git clone git@github.com:TinyAI-ID/tiny-ai-worker.git;
-cd tiny-ai-worker-todo-example;
+cd tiny-ai-worker;
 npm install;
 ```
 
